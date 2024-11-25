@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap')
+
+$bg-color: hsl(0, 0%, 100%)
+$stone100: hsl(30, 54%, 90%)
+$stone150: hsl(30, 18%, 87%)
+$stone600: hsl(30, 10%, 34%)
+$stone900: hsl(24, 5%, 18%)
+$brown800: hsl(14, 45%, 36%)
+$rose800: hsl(332, 51%, 32%)
+$rose950: hsl(330, 100%, 98%)
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background-color: $bg-color
+    height: 100vh
+    width: 100vw
+
+.container
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    img
+        width: 100%
+        height: 100%
+
+.apresentation
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 1rem
+    padding: 2rem
+    
+    h1
+        font-family: 'Young Serif', sans-serif
+        font-size: 2rem
+        font-weight: 900
+        color: $stone900
+    p
+        font-family: 'Outfit', sans-serif
+        color: $stone600
+
+.time
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    padding: 2rem
+    h3
+        font-family: 'outfit', sans-serif
+        font-weight: 800
+        color: $rose800
+        font-size: 1.3rem
+        margin-left: -1.5rem
+    ul
+        display: flex
+        flex-direction: column
+        gap: .8rem
+        font-family: 'outfit', sans-serif
+        color: $stone600
+
+.ingredients
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: 1rem
+    padding: 3.5rem
+    border-bottom: solid 1px $stone150
+    h2
+        font-family: 'young serif', sans-serif
+        font-weight: 800
+        color: $brown800
+        font-size: 1.3rem
+        margin-left: -1.5rem
+    ul
+        display: flex
+        flex-direction: column
+        gap: .8rem
+        font-family: 'outfit', sans-serif
+        color: $stone600
+
+.instructions
+    display: flex
+    flex-direction: column
+    justify-content: center
+    gap: 1rem
+    padding: 3.5rem
+    border-bottom: solid 1px $stone150
+    h2
+        font-family: 'young serif', sans-serif
+        font-weight: 800
+        color: $brown800
+        font-size: 1.3rem
+        margin-left: -1.5rem
+    ol
+        display: flex
+        flex-direction: column
+        gap: .8rem
+        font-family: 'outfit', sans-serif
+        color: $stone600
+    ol li::marker
+        color: $rose800
+        font-weight: 800
+
+.nutrition
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    padding: 2rem
+    h2
+        font-family: 'young serif', sans-serif
+        font-weight: 800
+        color: $brown800
+        font-size: 1.3rem
+    p
+        font-family: 'outfit', sans-serif
+        color: $stone600
+    table
+        font-family: 'outfit', sans-serif
+        border-collapse: collapse
+        tr
+            border-bottom: solid 1px $stone150
+        tr:last-child
+            border-bottom: none
+        th
+            font-weight: 400
+            padding: 1rem 0
+            color: $stone600
+        td
+            color: $brown800
+            font-weight: 800
+
+.attribution
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    font-family: 'outfit', sans-serif
+    color: $stone600
+    padding: 1rem 0
+    a
+        color: $rose800
+        text-decoration: none
+        font-weight: 600
+
+@media screen and (min-width: 1440px)
+    body
+        display: flex
+        flex-direction: column
+        align-items: center
+        background-color: $stone100
+    .container
+        width: 40%
+        background-color: $bg-color
+        border-radius: 1rem
+        margin: 12rem 0
+        img
+            padding: 2rem
+            border-radius: 3rem
+    .attribution
+        flex-direction: row
