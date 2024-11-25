@@ -8,8 +8,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [Screenshot](#screenshot)
-  - [Mobile](#mobile)
-  - [Desktop](#desktop)
+      - [Mobile](#mobile)
+      - [Desktop](#desktop)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -17,13 +17,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
-### Screenshot
+## Screenshot
 
-## Mobile
+### Mobile
 
 ![alt text](image-1.png)
 
-## Desktop
+### Desktop
 
 ![alt text](image.png)
 
